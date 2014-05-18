@@ -6,6 +6,7 @@ apt-get -y install curl unzip
 
 # Set up sudo
 echo 'vagrant ALL=NOPASSWD:ALL' > /etc/sudoers.d/vagrant
+chmod 0440 /etc/sudoers /etc/sudoers.d/vagrant
 
 # Tweak sshd to prevent DNS resolution (speed up logins)
 echo 'UseDNS no' >> /etc/ssh/sshd_config
