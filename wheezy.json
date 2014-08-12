@@ -9,7 +9,6 @@
         "scripts/ruby.sh",
         "scripts/puppet.sh",
         "scripts/chef.sh",
-        "scripts/cleanup-virtualbox.sh",
         "scripts/cleanup.sh",
         "scripts/zerodisk.sh"
       ],
